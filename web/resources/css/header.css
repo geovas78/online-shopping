@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main-wrapper{
+	width: 89%;
+	padding-left: 10%;
+	padding-top: 10px;
+}
+
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+/* Logo placeholder*/
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*width: 139px;*/
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	/*background-color: rgba(190,190,190,1.00);*/
+}
+/* div for Links in header */
+#headerLinks {
+	float: left;
+	width: calc( 100% - 139px );
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(255,255,255,1.00);
+}
+/* Links in header */
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(146,146,146,1.00);
+	padding-left: 66px;
+	font-size: 14px;
+}
+
+header{background-color:#1D1B1B;}
+
+.banner{
+	width: 100%;
+  	z-index: 0;
+	height: 100px;
+}
+
+#logo{
+	color:#1137B0;
+	font-family: 'Alfa Slab One', cursive;
+	font-size:36px;
+}
+
+#headerLinks a{
+	color:#28C343;
+	font-family: 'Alfa Slab One', cursive;
+	font-size:24px;
+}
+#foot{
+	text-align:center;
+	color:#083583;
+	background-color:#C3CF47;
+	hight: 200px;
+}
+p{
+	font-size: 16px;
+}

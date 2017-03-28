@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+#page{
+    background-image:url(../images/bg9.jpg);
+}
+.banner{
+    width: 100%;
+    z-index: 0;
+    height: 85px;
+}
+#logo{
+    color:#1137B0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size:36px;
+}
+
+#headerLinks a{
+    color:#28C343;
+    font-family: 'Alfa Slab One', cursive;
+    font-size:24px;
+}
+#choose{
+    margin-top: 15px;
+    background-image:url(../images/bookshelf.jpg);
+    height: 600px;
+    line-height:300px;
+}
+a .btn btn-primary btn-lg btn-block active{
+    vertical-align:middle;
+    margin: 20px auto;
+    outline: none;
+}
+#footer{
+    margin-top: 15px;
+    padding-top: 25px;
+    height: 80px;
+    font-size:18px;
+    text-align:center;
+    color:#57346B;
+    background-color:#CCB22A;
+}
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;
+    background-color: #1C1C1A;
+}
+#menu-item{
+    color: #C88810;
+}

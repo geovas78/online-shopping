@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cart-block{
+	margin-top: 25px;
+}
+
+#remove-button{
+	margin-top: 10px;
+}
+#success-button{
+	margin-top:10px;
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+#authen-head{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#form-block{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#form-block{
+	border: thin solid #A79E9E;
+	margin-left:10px;
+	background-color:#D0D0D0;
+}
+#form2-block{
+	border: thin solid #A79E9E;
+	/*margin-left: 25px;*/
+	float:right;
+	margin-right: 10px;
+	background-color:#D0D0D0;
+}
+#register-header{
+	margin-top: 18px;
+}
