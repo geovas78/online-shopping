@@ -137,7 +137,7 @@ public class EmailService {
             // Step3
             Transport transport = getMailSession.getTransport("smtp");
 
-            transport.connect("smtp.gmail.com", "revanger16@gmail.com", "23eABj9qSQ");
+            transport.connect("smtp.gmail.com", "myemail@gmail.com", "password");
             transport.sendMessage(generateMailMessage, generateMailMessage.getAllRecipients());
             transport.close();
 
